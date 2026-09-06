@@ -4,7 +4,7 @@ A lightweight, secure desktop runtime and player for **Visual Novel Package (`.v
 
 Built on **Tauri v2**, **Rust**, and **Svelte 5 / TypeScript**.
 
-The [VNP specification](https://github.com/kevinkoosk/vnp-specification) allows a visual novel to be created with Markdown and images, and distributed as a zip file with the extension of .vnp.
+The [VNP specification](https://github.com/kevinkoosk/vnp-specification) allows a visual novel to be created with Markdown and images, and distributed as a zip file with the extension of `.vnp`.
 
 ## Features
 
@@ -77,6 +77,12 @@ npm run tauri build
 
 The compiled standalone installer and executable will be generated in `src-tauri/target/release/`.
 
+## Distribution directory
+
+1. Check `src-tauri/tauri.conf.json`. 
+
+2. Ensure that the target distribution is `../dist` as required by Vite. Tauri will look in `../build`.
+
 
 ## Usage
 
@@ -99,6 +105,9 @@ VNP Reader adheres to the open Visual Narrative specifications:
 
 - **Save Conformance**: RFC 3339 UTC timestamps and complete execution snapshot state capture.
 
+## Notes
+
+This is version 0.1. Still very early on. This is just one implementation of the [specification for the VNP format](https://github.com/kevinkoosk/vnp-specification). The idea for the specification is to define a format for a portable visual novel file, like CBR for comic book reader archive and ODT for OpenDocument text.
 
 ## License
 
