@@ -1,9 +1,10 @@
 # VNP Reader
 
-A lightweight, secure desktop runtime and player for **Visual Narrative Package (`.vnp`)** digital interactive stories and visual novels.
+A lightweight, secure desktop runtime and player for **Visual Novel Package (`.vnp`)** digital interactive stories and visual novels.
 
 Built on **Tauri v2**, **Rust**, and **Svelte 5 / TypeScript**.
 
+The [VNP specification](https://github.com/kevinkoosk/vnp-specification) allows a visual novel to be created with Markdown and images, and distributed as a zip file with the extension of .vnp.
 
 ## Features
 
@@ -101,5 +102,5 @@ VNP Reader adheres to the open Visual Narrative specifications:
 
 ## License
 
-This project is licensed under the **GNU General Public License v3.0 (GPL-3.0)**. See the [LICENSE](https://www.google.com/search?q=LICENSE) file for full details.
+This project is licensed under the **MIT License**. See the [LICENSE](https://www.google.com/search?q=LICENSE) file for full details.
 
